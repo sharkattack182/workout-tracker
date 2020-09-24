@@ -25,7 +25,7 @@ module.exports = function (app) {
 
 
     app.post("/api/workouts/:id", (req, res) => {
-        db.Workout.findOneAndUpdate({_id: params.id}, {$inc: {duration: req.body.duration}, $push: {excercises: req.body}}, { new: true })
+        db.Workout.findByIdAndUpdate({_id: params.id}, {$push: {excercises: req.body}}, { new: true })
             .then(update => {
                 res.json(update);
             })
