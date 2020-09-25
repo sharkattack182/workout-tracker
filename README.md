@@ -39,5 +39,7 @@
  [Github](https://github.com/sharkattack182/workout-tracker)
  [deployed](https://serene-hollows-52003.herokuapp.com/?id=5f6c17698612e400175f7619)
  
- ## Images 
+ ## Visuals
+ <img src="./imgs/Capture.PNG" alt="example">
+ <img src="./imgs/Capture2.PNG" alt="example">
  
